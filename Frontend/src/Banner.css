@@ -1,0 +1,91 @@
+
+
+.text__container {
+  width: 80%;
+  margin-left: 20px;
+}
+
+.teams__container {
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner {
+  display:flex;
+}
+
+.team__text {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.team__text:hover {
+  text-decoration: underline;
+}
+
+.text__container > h1 {
+  font-size: 2.8rem;
+  
+}
+
+.text__container > p {
+  font-size: 1.3rem;
+  
+}
+
+.img__banner {
+  max-height: 448px;
+  object-fit: contain;
+  width: 100%;
+}
+
+
+.img__container {
+  width: 60%;
+}
+
+
+.search__btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2b2b2b;
+  background-color: #5fd70f;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.save__button {
+  margin: 13px;
+  padding: 12px;
+  color: #2b2b2b;
+  cursor: pointer;
+ 
+  
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.cancel__button {
+  padding: 18px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+ color: #fff;
+}
+  
+  
+ 
+
+.input {
+  margin: 2px;
+  padding: 10px;
+}
